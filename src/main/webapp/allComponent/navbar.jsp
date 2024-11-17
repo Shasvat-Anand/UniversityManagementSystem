@@ -13,8 +13,8 @@
 			</form>
 		</div>
 		<div class="col-md-3">
-		<a href="" class="btn btn-success">Student_Login</a>
-		<a href="" class="btn btn-primary">Admin_Login</a>
+		<a href="student.jsp" class="btn btn-success"><i class="fa-solid fa-right-to-bracket"></i> Student_Login</a>
+		<a href="Admin.jsp" class="btn btn-primary"><i class="fa-solid fa-right-to-bracket"></i> Admin_Login</a>
 		</div>
 	</div>
 
@@ -40,8 +40,8 @@
 			</li>
 		</ul>
 		<form class="form-inline my-2 my-lg-0">
-			<button class="btn btn-light my-2 my-sm-0 " type="submit">Contact Us</button>
-			<button class="btn btn- light my-2 my-sm-0 ml-1" type="submit">Setting</button>
+			<button class="btn btn-light my-2 my-sm-0 " type="submit"><i class="fa-solid fa-square-phone"></i> Contact Us</button>
+			<button class="btn btn- light my-2 my-sm-0 ml-1" type="submit"><i class="fa-solid fa-gear"></i> Setting</button>
 		</form>
 	</div>
 </nav>

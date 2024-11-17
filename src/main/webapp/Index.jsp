@@ -41,15 +41,14 @@
 	margin-left: 20px;
 }
 
-.foot {
-	background-color: black;
-	width: 400vw;
-}
- 
+
 </style>
 </head>
 <body>
 	<%@include file="allComponent/navbar.jsp"%>
+	
+	
+	
 	<div class="container-fluid back-img">
 		<h2 class="text-center">Galgotias University</h2>
 		<div class="wel">
@@ -58,6 +57,61 @@
 				and personal growth in a vibrant, inclusive environment.</p>
 		</div>
 	</div>
+	
+	
+	
+	 
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+   	<h2 class="text-center">Campus Life</h2>
+    
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/fre.jpg" alt="First slide" style="height:500px">
+        <div class="carousel-caption d-none d-md-block">
+    <h5>Fresher's Party</h5>
+    <p>Party for the student which became the part of University this year.</p>
+  </div>      
+    </div>
+    
+    <div class="carousel-item">    
+      <img class="d-block w-100" src="img/ev2.jpg" alt="Second slide" style="height:500px">
+        <div class="carousel-caption d-none d-md-block">
+    <h5>Singapore Student visit</h5>
+    <p>Student of Singapore visit our University.</p>
+  </div>      
+    </div>
+    
+    <div class="carousel-item">    
+      <img class="d-block w-100" src="img/hac.jpg" alt="fourth" style="height:500px">
+        <div class="carousel-caption d-none d-md-block">
+    <h5>Hackathon </h5>
+    <p>Frequent hackathon done every year.</p>
+  </div>      
+    </div>
+    
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/ev3.jpg" alt="Third slide" style="height:500px">
+      <div class="carousel-caption d-none d-md-block">
+    <h5>Club's Events</h5>
+    <p>Clubs of the University done their own event every year.</p>
+  </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  
 
 
 	<div class="container-fluid back-img1 ">
@@ -202,133 +256,8 @@
     
    
 
-
 	 
- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-   	<h2 class="text-center">Campus Life</h2>
-    
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="img/fre.jpg" alt="First slide" style="height:500px">
-        <div class="carousel-caption d-none d-md-block">
-    <h5>Fresher's Party</h5>
-    <p>Party for the student which became the part of University this year.</p>
-  </div>      
-    </div>
-    
-    <div class="carousel-item">    
-      <img class="d-block w-100" src="img/ev2.jpg" alt="Second slide" style="height:500px">
-        <div class="carousel-caption d-none d-md-block">
-    <h5>Singapore Student visit</h5>
-    <p>Student of Singapore visit our University.</p>
-  </div>      
-    </div>
-    
-    <div class="carousel-item">    
-      <img class="d-block w-100" src="img/hac.jpg" alt="fourth" style="height:500px">
-        <div class="carousel-caption d-none d-md-block">
-    <h5>Hackathon </h5>
-    <p>Frequent hackathon done every year.</p>
-  </div>      
-    </div>
-    
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/ev3.jpg" alt="Third slide" style="height:500px">
-      <div class="carousel-caption d-none d-md-block">
-    <h5>Club's Events</h5>
-    <p>Clubs of the University done their own event every year.</p>
-  </div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-  
-
-	
-
-	<div class="container-fluid">
-		<footer class="py-5">
-			<div class="row">
-				<div class="col-6 col-md-2 mb-3">
-					<h5>Section</h5>
-					<ul class="nav flex-column">
-						<li class="nav-item mb-2"><a href="#"
-							class="nav-link p-0 text-muted">Home</a></li>
-						<li class="nav-item mb-2"><a href="#"
-							class="nav-link p-0 text-muted">Features</a></li>
-						<li class="nav-item mb-2"><a href="#"
-							class="nav-link p-0 text-muted">Pricing</a></li>
-						<li class="nav-item mb-2"><a href="#"
-							class="nav-link p-0 text-muted">FAQs</a></li>
-						<li class="nav-item mb-2"><a href="#"
-							class="nav-link p-0 text-muted">About</a></li>
-					</ul>
-				</div>
-
-				<div class="col-6 col-md-2 mb-3">
-					<h5>Section</h5>
-					<ul class="nav flex-column">
-						<li class="nav-item mb-2"><a href="#"
-							class="nav-link p-0 text-muted">Home</a></li>
-						<li class="nav-item mb-2"><a href="#"
-							class="nav-link p-0 text-muted">Features</a></li>
-						<li class="nav-item mb-2"><a href="#"
-							class="nav-link p-0 text-muted">Pricing</a></li>
-						<li class="nav-item mb-2"><a href="#"
-							class="nav-link p-0 text-muted">FAQs</a></li>
-						<li class="nav-item mb-2"><a href="#"
-							class="nav-link p-0 text-muted">About</a></li>
-					</ul>
-				</div>
-
-				<div class="col-6 col-md-2 mb-3">
-					<h5>Section</h5>
-					<ul class="nav flex-column">
-						<li class="nav-item mb-2"><a href="#"
-							class="nav-link p-0 text-muted">Home</a></li>
-						<li class="nav-item mb-2"><a href="#"
-							class="nav-link p-0 text-muted">Features</a></li>
-						<li class="nav-item mb-2"><a href="#"
-							class="nav-link p-0 text-muted">Pricing</a></li>
-						<li class="nav-item mb-2"><a href="#"
-							class="nav-link p-0 text-muted">FAQs</a></li>
-						<li class="nav-item mb-2"><a href="#"
-							class="nav-link p-0 text-muted">About</a></li>
-					</ul>
-				</div>
-
-				 
-			</div>
-
-			<div
-				class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-				<p>© 2022 Company, Inc. All rights reserved.</p>
-				<ul class="list-unstyled d-flex">
-					<li class="ms-3"><a class="link-dark" href="#"><svg
-								class="bi" width="24" height="24">
-								<use xlink:href="#twitter"></use></svg></a></li>
-					<li class="ms-3"><a class="link-dark" href="#"><svg
-								class="bi" width="24" height="24">
-								<use xlink:href="#instagram"></use></svg></a></li>
-					<li class="ms-3"><a class="link-dark" href="#"><svg
-								class="bi" width="24" height="24">
-								<use xlink:href="#facebook"></use></svg></a></li>
-				</ul>
-			</div>
-		</footer>
-	</div>
+<%@include file="allComponent/footer.jsp" %>
 	<!-- Close the container div here -->
 </body>
 </html>
