@@ -47,7 +47,8 @@
 <body>
 	<%@include file="allComponent/navbar.jsp"%>
 	
-	
+	<%@ page import="java.sql.Connection" %>
+   <%@ page import="com.DB.DBconnect" %>
 	
 	<div class="container-fluid back-img">
 		<h2 class="text-center">Galgotias University</h2>

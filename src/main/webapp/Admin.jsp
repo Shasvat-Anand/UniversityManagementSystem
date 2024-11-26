@@ -44,17 +44,18 @@ border-radius:5px;
 				<div class="card">
 					<div class="card-body">
 					<h4 class="text-center "> Admin Login</h4>
-						<form>
+						<form action="Login" method="post">
 							<div class="form-group">
 								<label for="exampleInputEmail1">Email address</label> <input
 									type="email" class="form-control" id="exampleInputEmail1"
-									aria-describedby="emailHelp" placeholder="Enter email" required="required">
+									aria-describedby="emailHelp" placeholder="Enter email" required="required" name="email">
 							 
 							</div>
 							<div class="form-group">
 								<label for="exampleInputPassword1">Password</label> <input
 									type="password" class="form-control" id="exampleInputPassword1"
-									placeholder="Password" required="required">
+									placeholder="Password" required="required" name="password">
+									
 							</div>
 							 
 							<button type="submit" class="btn1 btn-primary">Submit</button>

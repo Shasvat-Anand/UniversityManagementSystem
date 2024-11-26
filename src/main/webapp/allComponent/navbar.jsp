@@ -5,16 +5,17 @@
 		<div class="col-md-3">
 			<h3>Galgotias University</h3>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-5">
 			<form class="form-inline my-2 my-lg-0">
 				<input class="form-control mr-sm-2" type="search"
 					placeholder="Search" aria-label="Search">
 				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 			</form>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-4">
 		<a href="student.jsp" class="btn btn-success"><i class="fa-solid fa-right-to-bracket"></i> Student_Login</a>
-		<a href="Admin.jsp" class="btn btn-primary"><i class="fa-solid fa-right-to-bracket"></i> Admin_Login</a>
+			<a href="Admin.jsp" class="btn btn-primary "><i class="fa-solid fa-right-to-bracket"></i> Faculty_Login</a>
+		<a href="Admin.jsp" class="btn btn-primary "><i class="fa-solid fa-right-to-bracket"></i> Admin_Login</a>
 		</div>
 	</div>
 
