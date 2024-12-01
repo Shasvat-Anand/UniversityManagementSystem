@@ -49,10 +49,38 @@ The project supports student login,faculty login and admin login, each with spec
 
 
 <h4>Steps to Setup</h4>
-<ul><li>Create  the Repository <li>
-<li>Configure the Database <li>
-<li>Install Dependencies<li>
+<ul><li>Create  the Repository </li>
+<li>Configure the Database </li>
+<li>Install Dependencies</li>
  </ul>
+
+
+<h3>Running the Project</h3>
+<h4>Run the Application:</h4>
+
+ <p>java -cp .;mysql-connector-java-x.x.x.jar Main</p>  
+
+<h4>Login:</h4>
+
+<p>Use the sample credentials provided in the database (or create your own via MySQL).<br>
+Student Login: Username: student1, Password: password123<br>
+Admin Login: Username: admin, Password: admin123</p>
+
+<h4>Explore the Features:<h4>
+
+<p>Choose between student or admin functionalities.</p>
+
+
+<h3>Database Schema</h3>
+<h4>Tables</h4>
+<ul><li>Students</li> 
+<li>Admin</li>
+<li>faculty</li>
+
+ <p>Each and Every Tables contain their subtables also for their own features.</p>
+</ul>
+
+ 
 
  
  
