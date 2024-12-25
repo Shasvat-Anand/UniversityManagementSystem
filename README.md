@@ -1,5 +1,5 @@
 <h1>University Management System</h1>
-<p>This console-based application simplifies administrative tasks for universities and provides a seamless experience for students.
+<p>This application simplifies administrative tasks for universities and provides a seamless experience for students.
 The project supports student login,faculty login and admin login, each with specific features to cater to their respective needs.</p>
 
 <h3>Table of Contents</h3>
