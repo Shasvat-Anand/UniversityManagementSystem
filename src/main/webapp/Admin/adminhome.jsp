@@ -7,6 +7,23 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>faculty home</h1>
+<h1>Admin home</h1>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <c:forEach var="user" items="${users}">
+                <tr>
+                    <td>${user.name}</td>
+                    <td>${user.email}</td>
+                </tr>
+            </c:forEach>
+        </tbody>
+    </table>
 </body>
 </html>
